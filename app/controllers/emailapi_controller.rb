@@ -1,6 +1,6 @@
 module Api
   module V1
-    class ApiController < ::ApplicationController
+    class EmailapiController < ::AppController
 def index
 end
 
