@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'gibbon', '~> 2.0.0'
+gem 'gibbon', git: 'git://github.com/amro/gibbon.git', branch: 'api_v2'
 
 group :development, :test do
   gem 'byebug'
