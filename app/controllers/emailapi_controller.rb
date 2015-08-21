@@ -1,3 +1,6 @@
+module Api
+  module V1
+    class ApiController < ::ApplicationController
 def index
 end
 
@@ -10,5 +13,7 @@ def subscribe
        :id => @list_id,   
        :email => {:email => params[:email][:address]}
     })
-    
 end 
+    end
+  end
+end
