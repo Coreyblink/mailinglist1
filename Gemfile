@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'gibbon', git: 'git://github.com/amro/gibbon.git', branch: 'api_v2'
 gem 'pg', '~> 0.18.2'
-
+gem 'rails_12factor', group: :production
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
